@@ -39,6 +39,9 @@
               'body-color':'#ffffff00',
               'another-bg':'rgb(244, 244, 244);'
             },
+            backgroundImage: {
+              "custom-image": "url('./assets/bg.jpg')",
+            },
           },
         },
       }
@@ -264,6 +267,157 @@
 
         </div>
 
+      </section>
+
+      <!-- Chellange part -->
+
+      <section class="lg:mt-14 mt-5">
+
+        <div>
+          <div class="flex justify-center">
+            <div class="flex items-center bg-lime-300 p-1 rounded-xl">
+              <i class="fa-regular fa-solid fa-arrow-right"></i>
+              <h6 class="">Explore Our latest Works </h6>
+            </div>
+          </div>
+          <div class="flex justify-center mt-6">
+
+            <div>
+              <h1 class="text-5xl font-bold text-center ">Our Latest Portfolio</h1>
+              <p class="mt-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            </div>
+
+          </div>
+
+         
+
+          <div class="lg:grid lg:grid-cols-4 gap-4 lg:w-7/12 mx-auto items-center mt-16">
+            <!-- First large block spanning 3 columns -->
+            <div class="lg:col-span-1 lg:col-span-3 border-solid border-2 border-gray-200 p-2 rounded-2xl lg:flex items-center w">
+              <img src="assets/img1.png" alt="">
+              <div class="ml-4">
+                <h6 class="font-bold">Commercial</h6>
+                <p>The barn house captivates with its blend of rustic charm and modern.<br> 
+                   The barn house captivates with its blend of rustic charm and modern.</p>
+                <div class="flex items-center">
+                  <h4 class="text-xl font-bold">View Details</h4>
+                  <i class="fa-sharp fa-solid fa-arrow-right -rotate-45 bg-lime-500 rounded-full text-xl flex items-center justify-center h-8 w-8 ml-2"></i>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Second small block in the first row, fourth column -->
+            <div class="col-span-4 lg:col-span-1 border-solid border-2 border-gray-200 p-5 rounded-2xl h-52">
+              <img class="h-full w-full object-cover" src="assets/img2.png" alt="">
+            </div>
+          
+            <!-- Third small block in the second row, first column -->
+            <div class="col-span-4 lg:col-span-1 border-solid border-2 border-gray-200 p-5 rounded-2xl h-52">
+              <img class="h-full w-full object-cover" src="assets/img3.png" alt="">
+            </div>
+          
+            <!-- Fourth large block spanning 2 columns in the second row -->
+            <div class="col-span-4 lg:col-span-2 border-solid border-2 border-gray-200 p-2 rounded-2xl lg:flex items-center">
+              <img src="assets/img4.png" alt="">
+              <div class="ml-4">
+                <h6 class="font-bold">Commercial</h6>
+                <p>The barn house captivates with its blend of rustic charm and modern.<br> 
+                   The barn house captivates with its blend of rustic charm and modern.</p>
+                <div class="flex items-center">
+                  <h4 class="text-xl font-bold">View Details</h4>
+                  <i class="fa-sharp fa-solid fa-arrow-right -rotate-45 bg-lime-500 rounded-full text-xl flex items-center justify-center h-8 w-8 ml-2"></i>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Fifth small block in the second row, third column -->
+            <div class="col-span-4 lg:col-span-1 border-solid border-2 border-gray-200 p-5 rounded-2xl h-52">
+              <img class="h-full w-full object-cover" src="assets/img5.png" alt="">
+            </div>
+          </div>
+          
+
+          
+          
+        </div>
+
+      </section>
+
+      <!-- form section -->
+
+      <section class="bg-custom-image bg-cover bg-center  mt-7 p-6 lg:p-0">
+        <div>
+          <div class="flex justify-center">
+            <div class="flex items-center bg-lime-300 rounded-xl">
+              <i class="fa-regular fa-solid fa-arrow-right"></i>
+              <h6 class="">Let's Connect </h6>
+            </div>
+          </div>
+
+          <div class="flex justify-center">
+            <div >
+              <h1 class="text-3xl font-bold lg:ml-72 mt-4">Let’s Discuss Next Project</h1>
+              <p class="mt-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            </div>
+          </div>
+
+          <div>
+
+            <div class="p-10 flex justify-center items-center">
+              <form class="p-8 rounded-lg shadow-lg w-full max-w-lg space-y-6">
+                <!-- First Row -->
+                <div class="lg:flex space-x-4">
+                  <div class="lg:w-1/2">
+                    <label for="first-name" class="block text-sm font-medium text-gray-700">First Name*</label>
+                    <input type="text" id="first-name" name="first-name" required placeholder="First Name"
+                      class="mt-1 p-3 rounded-2xl block w-full  border border-gray-300 shadow-sm focus:ring-lime-500 focus:border-lime-500">
+                  </div>
+                  <div class="lg:w-1/2">
+                    <label for="last-name" class="block text-sm font-medium text-gray-700">Last Name*</label>
+                    <input type="text" id="last-name" name="last-name" required placeholder="Last Name"
+                      class="mt-1 p-3 rounded-2xl block w-full border border-gray-300 shadow-sm focus:ring-lime-500 focus:border-lime-500">
+                  </div>
+                </div>
+            
+                <!-- Second Row -->
+                <div class="lg:flex space-x-4">
+                  <div class="lg:w-1/2 w-full">
+                    <label for="phone-number" class="block text-sm font-medium text-gray-700">Phone Number*</label>
+                    <input type="tel" id="phone-number" name="phone-number" required placeholder="Phone Number"
+                      class="mt-1 p-3 block w-full  rounded-2xl border border-gray-300 shadow-sm focus:ring-lime-500 focus:border-lime-500">
+                  </div>
+                  <div class="lg:w-1/2">
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email Number*</label>
+                    <input type="email" id="email" name="email" required placeholder="Email Number"
+                      class="mt-1 p-3  rounded-2xl block w-full  border border-gray-300 shadow-sm focus:ring-lime-500 focus:border-lime-500">
+                  </div>
+                </div>
+            
+                <!-- Message -->
+                <div>
+                  <label for="message" class="block text-sm font-medium text-gray-700">Write your message here</label>
+                  <textarea id="message" name="message" rows="4" required
+                    class="mt-1 p-3 block w-full rounded-md border border-gray-300 shadow-sm focus:ring-lime-500 focus:border-lime-500"></textarea>
+                </div>
+            
+                <!-- Submit Button -->
+                <div>
+                  <button type="submit"
+                    class="w-full bg-lime-500 text-white p-3 rounded-full font-semibold flex items-center justify-center space-x-2 hover:bg-lime-600">
+                    <span>Send Mail</span>
+                    <i class="fa-sharp fa-solid fa-arrow-right -rotate-45 bg-black rounded-full text-xl flex items-center justify-center h-6 w-6"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+            
+
+
+          </div>
+
+
+
+        </div>
       </section>
 
     </main>
