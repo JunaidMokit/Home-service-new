@@ -291,9 +291,9 @@
 
          
 
-          <div class="lg:grid lg:grid-cols-4 gap-4 lg:w-7/12 mx-auto items-center mt-16">
-            <!-- First large block spanning 3 columns -->
-            <div class="lg:col-span-1 lg:col-span-3 border-solid border-2 border-gray-200 p-2 rounded-2xl lg:flex items-center w">
+          <div class="lg:grid lg:grid-cols-4 gap-4 lg:w-7/12 mx-auto items-center mt-16  lg:gap-y-0">
+           
+            <div class="lg:col-span-1 lg:col-span-3 border-solid border-2 border-gray-200 p-2 rounded-2xl lg:flex items-center lg:mb-0 mb-8">
               <img class="lg:ml-0 ml-10 " src="assets/img1.png" alt="">
               <div class="ml-4"> 
                 <h6 class="font-bold">Commercial</h6>
@@ -306,19 +306,19 @@
               </div>
             </div>
           
-            <!-- Second small block in the first row, fourth column -->
-            <div class="col-span-4 lg:col-span-1 border-solid border-2 border-gray-200 p-5 rounded-2xl h-52">
+           
+            <div class="col-span-4 lg:col-span-1 border-solid border-2 border-gray-200 p-5 rounded-2xl h-52  lg:mb-0 mb-8">
               <img class="h-full w-full object-cover" src="assets/img2.png" alt="">
             </div>
           
-            <!-- Third small block in the second row, first column -->
-            <div class="col-span-4 lg:col-span-1 border-solid border-2 border-gray-200 p-5 rounded-2xl h-52">
+           
+            <div class="col-span-4 lg:col-span-1 border-solid border-2 border-gray-200 p-5 rounded-2xl h-52  lg:mb-0 mb-8">
               <img class="h-full w-full object-cover" src="assets/img3.png" alt="">
             </div>
           
-            <!-- Fourth large block spanning 2 columns in the second row -->
-            <div class="col-span-4 lg:col-span-2 border-solid border-2 border-gray-200 p-2 rounded-2xl lg:flex items-center">
-              <img src="assets/img4.png" alt="">
+            
+            <div class="col-span-4 lg:col-span-2 border-solid border-2 border-gray-200 p-2 rounded-2xl lg:flex items-center  lg:mb-0 mb-8">
+              <img class="lg:ml-0 ml-10 " src="assets/img4.png" alt="">
               <div class="ml-4">
                 <h6 class="font-bold">Commercial</h6>
                 <p>The barn house captivates with its blend of rustic charm and modern.<br> 
@@ -330,7 +330,7 @@
               </div>
             </div>
           
-            <!-- Fifth small block in the second row, third column -->
+           
             <div class="col-span-4 lg:col-span-1 border-solid border-2 border-gray-200 p-5 rounded-2xl h-52">
               <img class="h-full w-full object-cover" src="assets/img5.png" alt="">
             </div>
@@ -349,36 +349,43 @@
 
         <div class="w-2/3">
 
-          <div>
-            <h1>We Have more Services</h1>
-            <p>Home design services focus on creating personalized living spaces that blend functionality with aesthetic appeal. These services often include space planning, interior styling, and custom furniture selection to transform houses into dream homes.</p>
+          <div class="">
+            <div class="">
+              <h1 class="text-3xl font-bold flex justify-center mb-4">We Have more Services</h1>
+              <p class=" lg:ml-36 mb-11">Home design services focus on creating personalized living spaces that blend functionality with aesthetic appeal. These services often <br> include space planning, interior styling, and custom furniture selection to transform houses into dream homes.</p>
+            </div>
           </div>
 
-          <div>
-            <div class="lg:flex justify-around p-7 ">
+          
+
+          <div >
+            <div class="lg:flex justify-around p-12 rounded-3xl bg-slate-400 ">
               <div><img class="w-1/2 rounded-xl" src="assets/p3.jpg" alt=""></div>
               <div>
                 <h3 class="font-bold text-xl">1.Furniture Provide</h3>
                 <p>Furniture provide services offer a curated selection of high-quality, stylish pieces to complete and enhance any living or work space.</p>
+                <button class="bg-slate-200 mt-6 p-4 font-bold rounded-2xl">See More</button>
               </div>
 
             </div>
 
-            <div class="lg:flex p-7">
-              <div><img class="w-1/2  p-4 rounded-xl" src="assets/p1.jpg" alt=""></div>
-              <div>
+            <div class="lg:flex p-12 justify-around rounded-3xl bg-lime-500 mt-9">
+              <div class="rounded-2xl"><img class="lg:w-1/2   p-4 rounded-xl" src="assets/p1.jpg" alt=""></div>
+              <div >
                 <h3 class="font-bold text-xl">2.Graden</h3>
                 <p>Furniture provide services offer a curated selection of high-quality, stylish pieces to complete and enhance any living or work space.</p>
+                <button class="bg-slate-200 mt-6 p-4 font-bold rounded-2xl">See More</button>
               </div>
               
 
             </div>
 
-            <div class="lg:flex p-7">
+            <div class="lg:flex  justify-around p-12 rounded-3xl bg-slate-400 mt-9">
               <div class=" "><img class="w-2/3  rounded-2xl" src="assets/p2.jpg" alt=""></div>
               <div>
                 <h3 class="font-bold text-xl">1.Home Road</h3>
                 <p>Furniture provide services offer a curated selection of high-quality, stylish pieces to complete and enhance any living or work space.</p>
+                <button class="bg-slate-200 mt-6 p-4 font-bold rounded-2xl">See More</button>
               </div>
 
             </div>
@@ -421,7 +428,7 @@
                   <div class="lg:w-1/2">
                     <label for="last-name" class="block text-sm font-medium text-gray-700">Last Name*</label>
                     <input type="text" id="last-name" name="last-name" required placeholder="Last Name"
-                      class="mt-1 p-3 rounded-2xl block w-full border border-gray-300 shadow-sm focus:ring-lime-500 focus:border-lime-500">
+                      class="mt-1 p-3  -mx-3 rounded-2xl block w-full border border-gray-300 shadow-sm focus:ring-lime-500 focus:border-lime-500">
                   </div>
                 </div>
             
@@ -435,7 +442,7 @@
                   <div class="lg:w-1/2">
                     <label for="email" class="block text-sm font-medium text-gray-700">Email Number*</label>
                     <input type="email" id="email" name="email" required placeholder="Email Number"
-                      class="mt-1 p-3  rounded-2xl block w-full  border border-gray-300 shadow-sm focus:ring-lime-500 focus:border-lime-500">
+                      class="mt-1 p-3 -mx-3  rounded-2xl block w-full  border border-gray-300 shadow-sm focus:ring-lime-500 focus:border-lime-500">
                   </div>
                 </div>
             
